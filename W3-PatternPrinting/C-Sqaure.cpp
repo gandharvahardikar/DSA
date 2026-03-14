@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin >> n;
+    
+    // for number of rows 
+    for(int i = 1; i <=n; i++)
+     {  // for number of columns
+        for(int j = 1; j <= n; j++)
+         { 
+            cout << "*";
+         }
+    //endl should be inside the main for loop to print on new line 
+    cout << endl;
+     }
+     
+
+     
+}
